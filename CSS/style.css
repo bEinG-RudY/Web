@@ -1,0 +1,24 @@
+/* this is universal selector */
+* {
+    color: green;
+}
+
+/* this is element selector */
+h1 {
+    color: white;
+    /* background-color: red; */
+}
+
+button {
+    color: aliceblue;
+}
+
+/* this is ID selector */
+#heading2 {
+    color: aqua;
+}
+
+/* this is class selector */
+.hello {
+    color: bisque
+}

@@ -43,3 +43,24 @@ while (num != gameNum) {
 }
 
 console.log("congratulations,You gues he right number and you won the game")
+
+
+// Template Literals
+let obj = {
+    item: "pen",
+    price: 10
+};
+let output = `the cost of ${obj.item} is ${obj.price} rupees`
+console.log(output);
+let specialString = `This is Template literal`;
+console.log(typeof specialString);
+
+
+// String Methods like str.toUpperCase, str.toLowerCase,str.trim
+
+let str1 = "Pawan"
+console.log(str1);
+console.log("Aftr using str.toUpperCase String is ", str1.toUpperCase());
+console.log("Aftr using str.toLowerCase String is ", str1.toLowerCase());
+console.log("Aftr using str.trim String is ", str1.trim());
+

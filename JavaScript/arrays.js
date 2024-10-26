@@ -53,5 +53,17 @@ console.log(allHeroes);
 // slice(): returns a piece of the array , splice(): change original array(add, remove, replace)
 
 let num = [1, 2, 3, 4, 5, 6, 7];
-num.splice(2, 2, 101, 102);
+num.splice(2, 2, 101, 102); // deleting 2 element and added 2 element
 console.log(num);
+
+
+// creaye a array and perform these things - remove first company, remove uber and add ola in its place, add amazon at the end
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+console.log(companies);
+companies.shift();              //Removed the first company
+console.log("After removing the first company", companies);
+companies.splice(1, 1, "Ola");    // Replaced the Uber with Ola
+console.log("After Replacing the Ola with Uber", companies);
+companies.push("Amazon")        // Added the Amazon in the End
+console.log("After adding Amazon at the end", companies);
+

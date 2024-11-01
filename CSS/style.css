@@ -1,6 +1,12 @@
+.hello {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    color: #010101;
+}
 
 button {
-    
+
     color: white;
     background-color: #010101;
     border-radius: 10px;

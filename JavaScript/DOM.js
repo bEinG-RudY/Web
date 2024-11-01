@@ -62,3 +62,15 @@ for (hello of hellos) {
 
 // textContent
 // myDiv.textContent //   return textual content even for hidden elements
+
+
+// Attributes
+let par = document.querySelector("p");
+console.log(par.getAttribute("class"));
+
+console.log(par.setAttribute("class", "Nani"));
+
+// Style
+
+let hell = document.querySelector("button");
+hell.style.backgroundColor = "blue ";

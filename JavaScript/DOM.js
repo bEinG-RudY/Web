@@ -102,3 +102,10 @@ let newBtn3 = document.createElement("Button");
 newBtn3.innerText = "The Text only 1 available";
 let div = document.querySelector("div");
 div.after(newBtn);
+
+
+// delete the Element
+
+let paragraph = document.querySelector(".hello");
+paragraph.remove();
+console.log(paragraph);

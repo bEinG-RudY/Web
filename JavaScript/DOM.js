@@ -74,3 +74,31 @@ console.log(par.setAttribute("class", "Nani"));
 
 let hell = document.querySelector("button");
 hell.style.backgroundColor = "blue ";
+
+
+// Insert new Element
+let newBtn = document.createElement("Button");
+newBtn.innerText = "The ";
+console.log(newBtn);
+
+//node.append(el) : Adds at he end of node(inside)
+let newBtn0 = document.createElement("Button");
+newBtn0.innerText = "The Text";
+let div1 = document.querySelector("div");
+div1.append(newBtn);
+
+// node.prepend(el) : adds at hte start node (inside)
+let newBtn1 = document.createElement("Button");
+newBtn1.innerText = "The Text only";
+let div2 = document.querySelector("div");
+div2.prepend(newBtn);
+// node.before(el) : adds before the node(outside)
+let newBtn2 = document.createElement("Button");
+newBtn2.innerText = "The Text only 1";
+let div3 = document.querySelector("div");
+div3.before(newBtn);
+// node.after(el) : adds aftr the node(outside)
+let newBtn3 = document.createElement("Button");
+newBtn3.innerText = "The Text only 1 available";
+let div = document.querySelector("div");
+div.after(newBtn);

@@ -105,7 +105,6 @@ div.after(newBtn);
 
 
 // delete the Element
-
 let paragraph = document.querySelector(".hello");
 paragraph.remove();
 console.log(paragraph);
